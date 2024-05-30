@@ -222,7 +222,7 @@
                     <br>
                     <img src="img/caixinha.png " class="wow fadeInLeft delay-05s">
                 </div>
-                <form action="https://formsubmit.co/gustavobrun1224@gmail.com" method="POST" class="wow fadeInRight delay-04s" data-form>
+                <form action=""  class="wow fadeInRight delay-04s" id="contact-form" data-form>
                     <label for="nome"></label>
                     <input type="text" name="nome" id="nome" placeholder="Seu nome:" class="box" required>
                     <label for="email"></label>
@@ -230,9 +230,9 @@
                     <label for="nome"></label>
                     <input type="text" name="celular" id="celular" placeholder="Número celular:" class="box" required>
                     <label for="Nome da empresa"></label>
-                    <input type="text" name="nome empresa" id="nome empresa" placeholder="Nome da empresa:" class="box" required>
+                    <input type="text" name="nome_empresa" id="nome empresa" placeholder="Nome da empresa:" class="box" required>
                     <label for="opcao1"></label>
-                    <select  id="op1" name="faturamento da empresa" itemid="item1" class="box" required>
+                    <select  id="op1" name="faturamento_da_empresa" itemid="item1" class="box" required>
                      <option value="opcao">Qual faturamento médio mensal da sua empresa?</option>
                      <option value="Ate 20mil">Até 20mil</option>
                      <option value="De 21mil a 50mil">De 21mil à 50mil</option>
@@ -242,7 +242,7 @@
                      <option value="1milhao ou mais">1 milhão ou mais</option>
                      </select>
                      <label for="opcao2"></label>
-                    <select  id="op2" name="seguimento da empresa" itemid="item2" class="box" required>
+                    <select  id="op2" name="seguimento_da_empresa" itemid="item2" class="box" required>
                      <option value="opcao">Qual seguimento da sua empresa?</option>
                      <option value="serviço">Serviço</option>
                      <option value="varejo">Varejo</option>
@@ -260,6 +260,8 @@
                      <option value="02-10">02-10</option>
                      <option value="11-20">11-20</option>
                      </select>
+
+                     <p class="contact__message" id="contact-message"></p>
                      <button type="submit" data-button >PRECISO DE UM DIAGNÓSTICO DA MINHA EMPRESA</button>
          
          
@@ -334,7 +336,10 @@
 
 
 
-    
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="assets/js/js/app.js"></script>
     <script src="/assets/js/js/script.js" defer></script>
