@@ -810,7 +810,19 @@ input,
   }
 
 
+  @media screen and (min-width: 801px) and (max-width: 1360px) {
+   html{
+    font-size: 65%;
+   }
+   .contact .row2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: -300px;
+}
+  
 
+}
 
   /*swiper responsivo*/
   @media screen and (max-width: 320px) {
