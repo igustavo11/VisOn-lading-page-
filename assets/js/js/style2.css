@@ -295,7 +295,10 @@ body{
     align-items: center;
 
   }
-  
+  .title5{
+    font-size: 20px;
+    color: var(--blackcolor);
+  }
  
   
   .showcase-area .btn {
@@ -318,6 +321,7 @@ body{
   .container .row .service{
     padding: 25px 10px ;
     text-align: center;
+    border: var(--lightcolor);
     border-radius: 15px ;
     transition: transform .5s;
     cursor: pointer;
@@ -330,7 +334,7 @@ body{
  
   .container .row .service:hover{
     transform: scale(1.1);
-    background: var(--maincolorblue);
+    background: var(--colororange);
     color: var(--lightcolor);
   }
  
@@ -592,6 +596,50 @@ section .card .image{
   .show-scroll{
     bottom: 3rem;
   }
+  .gallery .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+.gallery .box-container .box{
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    border: 1rem solid var(--colorwhite);
+  
+    flex: 2 2 15rem;
+    height: auto;
+    position: relative;
+}
+.gallery .box-container img{
+    height: 100%;
+    width: 100%;
+    
+
+}
+.gallery .box-container .box .content{
+    position: absolute;
+    top: -100%; left: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,.7);
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.gallery .box-container .box .content h3{
+    font-size: 1.5rem ;
+    color: var(--colorprimamry);
+}
+.gallery .box-container .box .content p{
+    font-size: 1rem;
+    color: var(--colorwhite);
+    padding: .5rem 0 ;
+}
+.gallery .box-container .box:hover .content{
+    top: 0;
+}
+
 @media only screen and (max-width: 992px){
  
   .person {
