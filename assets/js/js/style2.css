@@ -600,20 +600,20 @@ section .card .image{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+    margin-top: 90px;
 
 }
 .gallery .box-container .box{
     overflow: hidden;
     box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
     border: 1rem solid var(--colorwhite);
-  
-    flex: 2 2 15rem;
+    flex: 2 2 20rem;
     height: auto;
     position: relative;
 }
 .gallery .box-container img{
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width:auto;
     
 
 }
@@ -629,11 +629,11 @@ section .card .image{
 }
 .gallery .box-container .box .content h3{
     font-size: 1.5rem ;
-    color: var(--colorprimamry);
+    color: var(--lightcolor);
 }
 .gallery .box-container .box .content p{
     font-size: 1rem;
-    color: var(--colorwhite);
+    color: var(--lightcolor);
     padding: .5rem 0 ;
 }
 .gallery .box-container .box:hover .content{
