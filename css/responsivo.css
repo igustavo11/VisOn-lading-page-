@@ -15,14 +15,17 @@
 
  
   .col-one{
-    padding-left: 35px!important;
-    padding-right: 35px!important;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
 }
 
 .banner {
     padding-top: 0px;
     padding-bottom: 50px;
 
+}
+.logo img{
+  width: 100%;
 }
 
 .big-title {
@@ -53,6 +56,10 @@
 .pilares img{
     width: 100%;
 }
+.pilares h2{
+  font-size: 15px;
+  text-align: start;
+}
 .right img{
     margin-top: 25px;
     width: 100%;
@@ -69,7 +76,6 @@
   }
   .right .mid p{
     font-size: 15px;
-    margin-left: 15px;
   }
   
   .slider{
@@ -108,6 +114,7 @@ width: 100px;
   width: 300px;
 }
 .portifolio img{
+  margin-bottom: 40px;
   width: 100%;
 }
 .gallery .box-container .box{
@@ -127,7 +134,19 @@ width: 100px;
   width: 50%;
 }
 .btn2{
-  font-size: 12px;
+ 
+  font-size: 10px;
 }
+.right .mid .btn2{
+  
+  font-size: 15px;
+}
+.title1{
+  text-align: start;
+}
+.title3{
+  text-align: start;
+}
+
 
 }
