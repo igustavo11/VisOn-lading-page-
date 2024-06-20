@@ -1,6 +1,7 @@
 @media (max-width: 767px) {
 
   .container-logo-footer{
+    margin-top: 25px;
     justify-content: center;
   }
   .container-texto-footer{
