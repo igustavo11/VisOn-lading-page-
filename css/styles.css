@@ -73,6 +73,19 @@ html, body{
     font-weight: bold;
     letter-spacing: 2px;
   }
+  .btni {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 1rem 2rem;
+    color: var(--lightcolor) !important;
+    background-color: var(--blackcolor);
+    border-radius: 50px;
+    text-transform: capitalize;
+    transition: 0.3s;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
   .btn:hover {
     background-color: var(--colororange);
     transform: scale(1) !important;
