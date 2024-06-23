@@ -128,7 +128,7 @@ html, body{
 }
 .img-banner img{
   position: relative;
-  width: 570px;
+  width:100%;
   top: 70px;
   right: 10px;
 }
