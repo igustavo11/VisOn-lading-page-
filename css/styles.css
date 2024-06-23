@@ -42,24 +42,26 @@ html, body{
   }
   
   .logo img {
-    width: 350px;
+    width: 400px;
     margin-top: 90px;
-    margin-bottom: -30px;
+    margin-bottom: 30px;
    
     
   }
   .big-title {
-    margin-top: 80px;
-    font-size: 1.4rem;
+    font-size: 40px;
     color: var(--lightcolor);
     line-height: 1.4;
     
   }
   .big-title h2{
     font-weight: bold;
+    
+
   }
   .btn {
     margin-top: 30px;
+    margin-bottom: 50px;
     display: inline-block;
     padding: 1rem 2rem;
     color: var(--lightcolor) !important;
@@ -101,6 +103,22 @@ html, body{
     border-radius: 15px;
     text-align: center;
 }
+.card-banner{
+  height: 450px;
+  width: 450px;
+  border-radius: 170px;
+
+  position: absolute;
+  right: 0;
+  top: -50px;
+
+}
+.img-banner img{
+  position: relative;
+  width: 570px;
+  top: 70px;
+  right: 10px;
+}
 
 /* banner 2 */
 
@@ -139,7 +157,6 @@ html, body{
     border: var(--lightcolor);
     border-radius: 15px ;
     transition: transform .5s;
-    cursor: pointer;
     font-size: 14px;
     background-color: var(--blackcolor);
     color: var(--lightcolor);
