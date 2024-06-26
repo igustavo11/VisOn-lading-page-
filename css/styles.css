@@ -17,21 +17,27 @@
     --blackcolor:#232323;
     --colorbody1:#272727;
 
-
-
 }
+*{
+  scroll-behavior: smooth;
+}
+
 html, body{
     font-family: 'PoppinsMedium', 'sans-serif';
     background-image: url(/img/BG\ preto.png);
     color: var(--lightcolor);
+    
 }
 .background-banner{
   position: absolute;
   left: 0 ;
   right: 0;
   height: 1130px;
-  background-image: url(/img/degrade.png);
+  background-image: url(/img/BG\ prin.png);
   
+}
+.color-primary{
+  color: var(--colororange);
 }
 
 .logo {

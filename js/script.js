@@ -20,23 +20,6 @@ contactForm.addEventListener('submit', sendEmail)
 
 
 
-const sections = document.querySelectorAll('section[id]');
-
-const scrollActive = () => {
-  const scrolly = window.pageYOffset;
-
-  sections.forEach(current => {
-    const sectionHeight = current.offsetHeight;
-    const sectionTop = current.offsetTop - 58;
-    const sectionId = current.getAttribute('id');
-    const sectionsClass = document.querySelector('.nav__menu a[href="#' + sectionId + '"]');
-
-    if (scrolly > sectionTop && scrolly <= sectionTop + sectionHeight) {
-      sectionsClass.classList.add('active-link');
-    } else {
-      sectionsClass.classList.remove('active-link');
-    }
-  });
-};
-
-window.addEventListener('scroll', scrollActive);
+function backToTop(){
+  document.documentElement.scrollTop = 0;
+}
