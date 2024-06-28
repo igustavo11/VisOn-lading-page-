@@ -32,7 +32,7 @@
 }
 
 .big-title {
-    font-size: 30px;
+    font-size: 26px;
     text-align: center;
     
 
@@ -62,8 +62,9 @@
     width: 100%;
 }
 .pilares h2{
-  font-size: 15px;
-  text-align: center;
+  font-size: 13px;
+  text-align: justify;
+  align-items: center;
 }
 .right img{
     margin-top: 25px;
@@ -141,8 +142,8 @@ width: 100px;
 }
 .btn2{
  
-  font-size: 10px;
-  margin-left: 20px;
+  font-size: 8px;
+  margin-left: 35px;
 }
 .right .mid .btn2{
   
@@ -152,15 +153,16 @@ width: 100px;
   text-align: center;
 }
 .title3{
-  text-align: center;
+  margin-top: 10px;
+  text-align: justify;
 }
 .img-banner img{
   margin-top: -50px;
-  width: 320px;
+  width: 350px;
   margin-bottom: 50px;
 }
 .btn{
-  margin-left: 25px;
+  margin-left: 40px;
 }
 
 
