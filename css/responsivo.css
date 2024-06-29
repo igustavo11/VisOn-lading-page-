@@ -39,7 +39,7 @@
 }
 .title{
     font-size: 20px;
-    text-align: start;
+    text-align: center;
 }
 .text-banner p{
     font-size: 18px ;
@@ -84,7 +84,7 @@
   }
   .right .mid p{
     font-size: 16px;
-
+     
   }
   
   .slider{
@@ -156,7 +156,7 @@ width: 100px;
 }
 .title3{
   margin-top: 10px;
-  text-align: justify;
+  text-align: center;
 }
 .img-banner img{
   margin-top: -50px;
@@ -166,6 +166,8 @@ width: 100px;
 .btn{
   margin-left: 40px;
 }
-
+.titile4 h2{
+  text-align: center;
+}
 
 }
