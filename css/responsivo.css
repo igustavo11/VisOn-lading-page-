@@ -62,12 +62,14 @@
     width: 100%;
 }
 .pilares h2{
-  font-size: 13px;
-  text-align: justify;
-  align-items: center;
+  font-size: 12px;
+  text-align: center;
+  font-size: small;
+  
 }
 .right img{
     margin-top: 25px;
+    
     width: 100%;
   }
   .right .mid{
