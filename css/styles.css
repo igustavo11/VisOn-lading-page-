@@ -481,7 +481,7 @@ background: var(--blackcolor);
 }
 /*footer */
 footer{
-  background: url(/img/BGfooter.png);
+  background: url(/img/bgfooter.png);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
