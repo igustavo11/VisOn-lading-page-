@@ -246,6 +246,9 @@ html, body{
     background-image: linear-gradient(to left, #ff9d4d,#f84000 );
 
   }
+  .btn2:hover{
+    transform: scale(1.1) !important;
+  }
   .right .mid{
     margin-left: 140px;
   }

@@ -26,13 +26,14 @@
 
 }
 .logo img{
-  width: 330px;
+  width: 310px;
+  margin-left: 25px;
   align-items: center;
   
 }
 
 .big-title {
-    font-size: 26px;
+    font-size: 20px;
     text-align: center;
     
 
