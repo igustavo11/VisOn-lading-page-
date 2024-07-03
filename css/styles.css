@@ -248,6 +248,7 @@ html, body{
   }
   .btn2:hover{
     transform: scale(1.1) !important;
+    text-decoration: none;
   }
   .right .mid{
     margin-left: 140px;
@@ -301,6 +302,7 @@ html, body{
 .btn3:hover {
   transform: scale(1.1) !important;
   background-color: var(--colorblue);
+  text-decoration: none;
 }
 .btn3{
   margin-left: 400px;
