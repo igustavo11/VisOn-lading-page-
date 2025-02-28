@@ -1,25 +1,32 @@
-const contactForm = document.getElementById('contact-form'), contactMessage = document.getElementById('contact-message')
+const contactForm = document.getElementById("contact-form"),
+  contactMessage = document.getElementById("contact-message");
 
-const sendEmail = (e) =>{
-    e.preventDefault()
-    emailjs.sendForm('service_xy58c6d','template_oxl5z94','#contact-form','ACRAkpjPcgfpb4wLF' )
-    .then(() =>{
-        contactMessage.textContent = 'Email enviado ✅'
-        setTimeout(()=>{
-           contactMessage.textContent = '' 
-        }, 5000)
+const sendEmail = (e) => {
+  e.preventDefault();
+  emailjs
+    .sendForm(
+      "service_w4sgkpw",
+      "template_oxl5z94",
+      "#contact-form",
+      "3E_SzVJ59mdqqPJl0"
+    )
+    .then(
+      () => {
+        contactMessage.textContent = "Email enviado ✅";
+        setTimeout(() => {
+          contactMessage.textContent = "";
+        }, 5000);
 
-        contactForm.reset()
+        contactForm.reset();
+      },
+      () => {
+        contactMessage.textContent = "Email não enviado error ❌";
+      }
+    );
+};
 
-    }, ()=>{
-        contactMessage.textContent = 'Email não enviado error ❌'
-    });
-}
+contactForm.addEventListener("submit", sendEmail);
 
-contactForm.addEventListener('submit', sendEmail)
-
-
-
-function backToTop(){
+function backToTop() {
   document.documentElement.scrollTop = 0;
 }
